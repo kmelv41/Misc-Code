@@ -13,8 +13,8 @@ driver = webdriver.Edge(PATH)
 
 driver.get('https://members.whistlebear.ca/TeeTimes/TeeSheet.aspx')
 
-driver.find_element(by=By.ID, value='p_lt_page_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_UserName').send_keys('kmelv41')
-driver.find_element(by=By.ID, value='p_lt_page_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_Password').send_keys('K910623m')
+driver.find_element(by=By.ID, value='p_lt_page_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_UserName').send_keys('')
+driver.find_element(by=By.ID, value='p_lt_page_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_Password').send_keys('')
 driver.find_element(by=By.ID, value='p_lt_page_content_pageplaceholder_p_lt_zoneLeft_CHOLogin_LoginControl_ctl00_Login1_Password').send_keys(Keys.RETURN)
 
 time.sleep(20)
